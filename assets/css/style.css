@@ -208,6 +208,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 100vh;
   background: url("../portfolio/background7.jpeg") top center;
   background-size: cover;
+  left: 20px;
 }
 
 #hero:before {
@@ -232,20 +233,23 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color: rgb(229, 246, 217);
+  color: rgb(227, 247, 212);
 }
 
 #hero p {
-  color: #fff;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
 }
 
 #hero .hero-bio {
-  line-height: 12px;
+  line-height: 14px;
   font-size: 20px;
-  color: #f9faf2;
+  color: #ffffff;
   font-family: "Gill Sans", sans-serif;
+}
+
+#hero .hero-pronouns {
+  color: #f4dfd2;
 }
 
 #hero p span {
