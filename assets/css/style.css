@@ -210,7 +210,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../portfolio/background7.jpeg") top center;
+  background: url("../img/background7.jpeg") top center;
   background-size: cover;
   left: 20px;
 }
@@ -490,8 +490,6 @@ section {
   font-weight: 450;
   margin-bottom: 10px;
   border-radius: 8px;
-  
-
   box-sizing: border-box;
   color: #00132C;
   background-color: transparent;
