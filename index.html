@@ -5,9 +5,13 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
+  <!-- the text in this title element will appear on the browser tab -->
   <title>Sara Zhu</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
+
+  <!-- this will add an icon to the browser tab; currently set to a leaf icon -->
+  <link rel="shortcut icon" type="image/x-icon" href="https://cdn.icon-icons.com/icons2/2248/PNG/512/leaf_icon_138426.png" />
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -26,8 +30,6 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <link rel="shortcut icon" type="image/x-icon" href="https://cdn.icon-icons.com/icons2/2248/PNG/512/leaf_icon_138426.png" />
-
 </head>
 
 <body>
@@ -36,27 +38,33 @@
   <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
 
   <!-- ======= Header ======= -->
+  <!-- this is the side bar on the left side of the page -->
   <header id="header">
     <div class="d-flex flex-column">
 
       <div class="profile">
-        <img src="assets/img/prof.jpg" alt="" class="img-fluid rounded-circle">
+        <!-- set path to profile picture here -->
+        <img src="assets/img/profile_pic.jpg" alt="" class="img-fluid rounded-circle">
         <h1 class="text-light"><a href="index.html">SARA ZHU</a></h1 >
         <div class="social-links mt-3 text-center">
-          <a href="https://www.linkedin.com/in/sara-zhu-40511916b/"   target = "_blank"   class="linkedin"><i class="bx bxl-linkedin"></i></a>
-          <a href="https://github.com/sazhu24"   target = "_blank"   class="github"><i class="bx bxl-github"></i></a>
-          <a href="https://www.instagram.com/sara._.zhu/"   target = "_blank"   class="instagram"><i class="bx bxl-instagram"></i></a>
+          <!-- optional: link your social media pages -->
+          <!-- you can add other logos by changing the class of the i element -->
+          <!-- go to icofont.com to see available options -->
+          <a href="https://www.linkedin.com/in/sara-zhu-40511916b/" target = "_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://github.com/sazhu24" target = "_blank" class="github"><i class="bx bxl-github"></i></a>
+          <a href="https://www.instagram.com/sara._.zhu/" target = "_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
         </div>
       </div>
 
       <nav class="nav-menu">
         <ul>
           <li class="active"><a href="index.html"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <!-- add shortcuts for each section -->
+          <!-- you can customize these to your liking -->
           <li><a href="#projects"><i class="bx bx-server"></i>Projects</a></li>
           <li><a href="#portfolio"><i class="bx bx-book-content"></i>Portfolio</a></li>
           <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
           <li><a href="#contact"><i class="bx bx-envelope"></i>Contact</a></li>
-
         </ul>
       </nav><!-- .nav-menu -->
       <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
@@ -65,15 +73,19 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
+  <!-- this section is displayed when you first land on the page -->
   <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <!-- set background image in the #hero element through the css style sheet -->
     <div class="hero-container" data-aos="fade-in">
+
       <h1>Sara Zhu</h1>
-      <p class="hero-pronouns"><em>she/they</em></p>
-      <p class="hero-bio">Senior @ Amherst College</p>
+      <p class="hero-pronouns"><em>(she/they)</em></p>
+      <p class="hero-bio">Senior at Amherst College</p>
       <p class="hero-bio">B.A. in Economics</p>
       
     </div>
   </section><!-- End Hero -->
+
 
   <main id="main">
 
@@ -89,90 +101,88 @@
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
             <h4 class="title"><a href="https://rstudio3.amherst.edu/apps/sazhu24/sdg_course_mapping/"  target = "_blank">SDG Course Tool</a></h4>
             <p class="description"> A <a href="https://rstudio3.amherst.edu/apps/sazhu24/sdg_course_mapping/"  target = "_blank" >Shiny App</a> that analyses text from course descriptions to highlight courses that align with the United Nation’s 17 Sustainable Development Goals.</p></p>
-            <div class="box-img"><img src="assets/img/mammoth_sdg.png" class = "project-img" style = "width: 50%; margin: 12px 0 0 32.5%"></div>
+            <div class="box-img"><img src="assets/img/projects/mammoth_sdg.png" class = "project-img" style = "width: 50%; margin: 12px 0 0 32.5%"></div>
           </div>
 
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
             <h4 class="title"><a href="https://rstudio3.amherst.edu/apps/sazhu24/climate_justice/"  target = "_blank">Climate Justice Now!</a></h4>
             <p class="description">An <a href="https://rstudio3.amherst.edu/apps/sazhu24/climate_justice/"  target = "_blank" >app</a> for sharing resources, policy platforms, and recommended actions for advancing work on climate justice issues.</p></p>
-            <div class="box-img"><img src="assets/img/climate_justice.png" class = "project-img" style = "width: 110%; margin: 2px 0 0 2.4%"></div>
+            <div class="box-img"><img src="assets/img/projects/climate_justice.png" class = "project-img" style = "width: 110%; margin: 2px 0 0 2.4%"></div>
           </div>
 
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="50">
             <h4 class="title"><a href="assets/apps/peru.html">Investigating Deforestation in Peru</a></h4>
             <p class="description">An <a href="assets/apps/peru.html">exploratory spatial analysis</a> of deforestation and public finance in Peru.</p>
-            <div class="box-img"><img src="assets/img/peru-map2.png" class = "project-img" style = "width: 85%; margin: -38px 0 0 16%"></div>
+            <div class="box-img"><img src="assets/img/projects/peru-map2.png" class = "project-img" style = "width: 85%; margin: -38px 0 0 16%"></div>
           </div>
 
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="70">
             <h4 class="title"><a href="https://drive.google.com/file/d/1dOLX8VbzkLCUEFQweBVotPsEuq4pk8ah/view?usp=sharing"  target = "_blank">Geospatial Analysis of Affordable Housing in Western MA</a></h4>
-            <p class="description"> In this project, I use ArcGIS Pro to explore the clustering dynamics of affordabe housing units in Western Massachusetts. View my project poster <a href="assets/img/REGPL_625_Final.jpeg" data-gall="portfolioGallery" class="venobox" title="A Spatial Analysis of Subsidized Housing in the Pioneer Valley">here</a>.</p></p>
-            <div class="box-img"><img src="assets/img/gis.png" class = "project-img" style = "width: 112%; margin:-10px 2% 0 0px"></div>
+            <p class="description"> In this project, I use ArcGIS Pro to explore the clustering dynamics of affordabe housing units in Western Massachusetts. View my project poster <a href="assets/img/projects/REGPL_625_Final.jpeg" data-gall="portfolioGallery" class="venobox" title="A Spatial Analysis of Subsidized Housing in the Pioneer Valley">here</a>.</p></p>
+            <div class="box-img"><img src="assets/img/projects/gis.png" class = "project-img" style = "width: 112%; margin:-10px 2% 0 0px"></div>
           </div>
 
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="70">
             <h4 class="title"><a href="https://www.boston.gov/sites/default/files/file/2023/10/1010_BHAEngageReport_Final_1.pdf"  target = "_blank">Survey Analysis for Boston's BHA Transportation Action Plan</a></h4>
             <p class="description"> Analyzed survey data using R and ArcGIS to identify trends in bus ridership and community sentiment toward transit infrastructure in Boston’s Roxbury neighborhood.</p>
             <!-- Final results were included in the <a href="https://www.boston.gov/sites/default/files/file/2023/10/1010_BHAEngageReport_Final_1.pdf"  target = "_blank" >Community Engagement Report</a> for Boston's Blue Hill Ave. Transportation Action Plan</p> -->
-            <div class="box-img"><img src="assets/img/blue-hill-ave.png" class = "project-img" style = "width: 124%; margin-left:1.5%"></div>
+            <div class="box-img"><img src="assets/img/projects/blue-hill-ave.png" class = "project-img" style = "width: 124%; margin-left:1.5%"></div>
           </div>
 
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="70">
             <h4 class="title"><a href="https://github.com/sazhu24/SDS271-G5-Package"  target = "_blank">geoMap Python Package</a></h4>
             <p class="description"> The <a href="https://github.com/sazhu24/SDS271-G5-Package" target = "_blank" >geoMap</a> python package allows users to visualize the seismic risk profiles of countries and territories around the world. The mapping tool combines geological and social risk factors to wholistically model global earthquake vulnerability. 
               View example visualizations <a href="assets/apps/geoMap_plot.html">here</a>.</p>
-            <div class="box-img"><img src="assets/img/geoMap.png" class = "project-img" style = "width: 114%; margin: -8px 0 0 1%"></div>
+            <div class="box-img"><img src="assets/img/projects/geoMap.png" class = "project-img" style = "width: 114%; margin: -8px 0 0 1%"></div>
           </div>
 
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
             <h4 class="title"><a href="https://rstudio3.amherst.edu/apps/sazhu24/sustainability_projects/">Sustainability Project Dashboard</a></h4>
             <p class="description">A centralized <a href="https://rstudio3.amherst.edu/apps/sazhu24/sustainability_projects/">project dashboard</a> that catalogs past and on-going projects to track student and faculty engagement with the Office of Sustainability.</p>
-            <div class="box-img"><img src="assets/img/project_catalog.png" class = "project-img" style = "width: 103%; margin: 0px 0 0 6.1%"></div>
+            <div class="box-img"><img src="assets/img/projects/project_catalog.png" class = "project-img" style = "width: 103%; margin: 0px 0 0 6.1%"></div>
           </div>
 
           <!-- <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="50">
             <h4 class="title"><a href="https://www.amherst.edu/alumni/events/virtual-programs/sustainability-at-amherst"  target = "_blank">Sustainability at Amherst: The Path Forward (Webinar)</a></h4>
             <p class="description"> Moderated the <a href="https://www.amherst.edu/alumni/events/virtual-programs/sustainability-at-amherst"  target = "_blank" >webinar</a>, Sustainability at Amherst: The Path Forward, a conversation with Amherst's Director of Sustainability and 200+ live participants.</p>
-            <div class="box-img"><img src="assets/img/webinar-info.png" class = "project-img" style = "width: 112%; margin-left:0.8%"></div>
+            <div class="box-img"><img src="assets/img/projects/webinar-info.png" class = "project-img" style = "width: 112%; margin-left:0.8%"></div>
           </div> -->
 
           <div class="col-lg-4 col-md-6 icon-box filter-other cover" data-aos="fade-up" data-aos-delay="50">
-            <h4 class="title"><a href="assets/img/acc-letter.jpeg" data-gall="portfolioGallery" class="venobox" title="ACC Newsletter">ACC Newsletter</a></h4>
-            <p class="description"> Wrote summer and winter <a href="assets/img/acc-letter.jpeg" data-gall="portfolioGallery" class="venobox" title="ACC Newsletter">newsletters</a> to fundraise for the housing non-profit, Amherst Community Connections.</p>
-            <div class="box-img"><img src="assets/img/acc-letter.png" class = "project-img" style = "width: 110%; margin: -10px 0 0 2.1%"></div>
+            <h4 class="title"><a href="assets/img/projects/acc-letter.jpeg" data-gall="portfolioGallery" class="venobox" title="ACC Newsletter">ACC Newsletter</a></h4>
+            <p class="description"> Wrote summer and winter <a href="assets/img/projects/acc-letter.jpeg" data-gall="portfolioGallery" class="venobox" title="ACC Newsletter">newsletters</a> to fundraise for the housing non-profit, Amherst Community Connections.</p>
+            <div class="box-img"><img src="assets/img/projects/acc-letter.png" class = "project-img" style = "width: 110%; margin: -10px 0 0 2.1%"></div>
           </div>
 
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="50">
             <h4 class="title"><a href="https://www.npr.org/2020/05/27/862792242/best-of-the-best-here-are-the-finalists-in-the-npr-student-podcast-challenge">NPR Student Podcast Finalist</a></h4>
             <p class="description"> My <a href="https://www.npr.org/2020/05/27/862792242/best-of-the-best-here-are-the-finalists-in-the-npr-student-podcast-challenge">podcast</a>
             was chosen as one of 25 finalists from over 2,000 submissions for the NPR Student Podcast Challenge.</p>
-            <div class="box-img"><img src="assets/img/npr-podcast.png" class = "project-img" style = "width: 113%; margin: -4px 0 0 1.1%"></div>
+            <div class="box-img"><img src="assets/img/projects/npr-podcast.png" class = "project-img" style = "width: 113%; margin: -4px 0 0 1.1%"></div>
           </div>
 
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="50">
             <h4 class="title"><a href="assets/apps/sustainability_survey_analysis.html">Campus Sustainability Survey</a></h4>
             <p class="description"> <span style = 'font-style: italic;'>WORK IN PROGRESS</span> - An <a href="assets/apps/sustainability_survey_analysis.html">analysis </a> of over 900 responses to Amherst's Campus Sustainability Survey, a Qualtrics survey that I designed and helped administer.</p>
-            <div class="box-img"><img src="assets/img/tree.png" class = "project-img" style = "width: 88%; margin: -15px 0 0 11.8%"></div>
+            <div class="box-img"><img src="assets/img/projects/tree.png" class = "project-img" style = "width: 88%; margin: -15px 0 0 11.8%"></div>
           </div>
 
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="50">
             <h4 class="title"><a href="https://rstudio3.amherst.edu/apps/sazhu24/amherst_dining">Amherst Food Analysis</a></h4>
             <p class="description"> <span style = 'font-style: italic;'>WORK IN PROGRESS</span> - A <a href="https://rstudio3.amherst.edu/apps/sazhu24/amherst_dining">Shiny App</a> that tracks Amherst Dining's purchasing history to guide the development of the college's food procurement policy.</p>
-            <div class="box-img"><img src="assets/img/food-dining.png" class = "project-img" style = "width: 66%; margin: -5px 0 0 23.8%"></div>
+            <div class="box-img"><img src="assets/img/projects/food-dining.png" class = "project-img" style = "width: 66%; margin: -5px 0 0 23.8%"></div>
           </div>
 
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="50">
             <h4 class="title"><a href="https://rstudio3.amherst.edu/apps/sazhu24/STARS/">STARS Dashboard</a></h4>
             <p class="description"> <span style = 'font-style: italic;'>WORK IN PROGRESS</span> - A <a href="https://rstudio3.amherst.edu/apps/sazhu24/STARS/">Shiny App</a> that outlines Amherst's sustainability goals and tracks the college's progress in energy, water, waste, food, procurement, investment, and other sustainability-focused initiatives.</p>
-            <div class="box-img"><img src="assets/img/stars-dashboard.png" class = "project-img" style = "width: 110%; margin: -10px 0 0 1.7%"></div>
+            <div class="box-img"><img src="assets/img/projects/stars-dashboard.png" class = "project-img" style = "width: 110%; margin: -10px 0 0 1.7%"></div>
           </div>
-
-          
 
           <!-- <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="50">
             <h4 class="title"><a href="#emissions-widget">GHG Inventory</a></h4>
             <p class="description"> A <a href="assets/apps/emissions_plots.html">dashboard</a> that tracks the college's electricity consumption and GHG inventory in accordance with the GHG Protocol.</p>
-            <div class="box-img"><img src="assets/img/ghg-inventory.png" class = "project-img" style = "width: 110%; margin: 5px 0 0 1.8%"></div>
+            <div class="box-img"><img src="assets/img/projects/ghg-inventory.png" class = "project-img" style = "width: 110%; margin: 5px 0 0 1.8%"></div>
           </div> -->
 
           <!-- <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
@@ -188,19 +198,18 @@
           <!-- <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
             <h4 class="title"><a href="https://www.amherst.edu/alumni/events/reunion/schedule/2023-schedule?&page=1#:~:text=Climate%20Crisis%20Initiatives%20at%20Amherst,by%20the%20Class%20of%201968."  target = "_blank">Climate Crisis Initiatives at Amherst—Now and in the Future (Panel)</a></h4>
             <p class="description"> In September 2024, I served as a student representative on a <a href="https://www.amherst.edu/alumni/events/reunion/schedule/2023-schedule?&page=1#:~:text=Climate%20Crisis%20Initiatives%20at%20Amherst,by%20the%20Class%20of%201968."  target = "_blank" >panel</a> discussing climate initiatives with Amherst's faculty, alumn, and Director of Sustainability.</p>
-            <div class="box-img"><img src="assets/img/panel-info.png" class = "project-img"></div>
+            <div class="box-img"><img src="assets/img/projects/panel-info.png" class = "project-img"></div>
           </div> -->
 
           <!-- <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
             <h4 class="title"><a href="https://www.alamedaca.gov/RESIDENTS/Climate-Action-and-Environmental-Sustainability-in-Alameda/Climate-Action-and-Resiliency-Plan">Alameda Climate Dashboard</a></h4>
             <p class="description"> Created a set of videos <a href="https://youtu.be/cmQfNyHXVs0">explaining</a> and <a href="https://youtu.be/U9ibgzH6PKo">highlighting youth support</a> for Alameda's Climate Action and Resiliency Plan. Featured on Alameda's <a href="https://www.alamedaca.gov/RESIDENTS/Climate-Action-and-Environmental-Sustainability-in-Alameda/Climate-Action-and-Resiliency-Plan">dashboard</a>.</p>
-            <div class="box-img"><img src="assets/img/acarp-video.png" class = "project-img"></div>
+            <div class="box-img"><img src="assets/img/projects/acarp-video.png" class = "project-img"></div>
           </div> -->
 
 
         </div>
     </section><!-- End Projects Section -->
-
 
 
     <!-- ======= Portfolio Section ======= -->
@@ -209,7 +218,7 @@
 
         <div class="section-title">
           <h2>Portfolio</h2>
-          <p style = 'font-size: 15px'>View samples of my graphic design work + chinese brush painting and calligraphy pieces</p>
+          <p style = 'font-size: 15px'></p>
         </div>
 
         <div class="row" data-aos="fade-up">
@@ -227,9 +236,9 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-graphics cover" data-aos="fade-up" data-aos-delay="70">
             <div class="portfolio-wrap">
-              <img src="assets/img/green_containers.png" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/green_containers.png" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/green_containers.png" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/portfolio/green_containers.png" data-gall="portfolioGallery" class="venobox" title="Green Containers"><i class="bx bx-plus"></i></a>
                 <a href="https://www.instagram.com/p/CTKqJqejsYi/?utm_source=ig_web_copy_link" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
@@ -237,9 +246,9 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-graphics cover" data-aos="fade-up" data-aos-delay="70">
             <div class="portfolio-wrap">
-              <img src="assets/img/summer_hours.png" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/summer_hours.png" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/summer_hours.png" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/portfolio/summer_hours.png" data-gall="portfolioGallery" class="venobox" title="Summer Hours"><i class="bx bx-plus"></i></a>
                 <a href="https://www.instagram.com/p/CRJdwRqh8eX/?utm_source=ig_web_copy_link" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
@@ -247,9 +256,9 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-graphics cover" data-aos="fade-up" data-aos-delay="70">
             <div class="portfolio-wrap">
-              <img src="assets/img/hiring.png" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/hiring.png" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/hiring.png" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/portfolio/hiring.png" data-gall="portfolioGallery" class="venobox" title="Hiring"><i class="bx bx-plus"></i></a>
                 <a href="https://www.instagram.com/p/CSctGDvBv2a/?utm_source=ig_web_copy_link" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
@@ -257,9 +266,9 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-graphics cover" data-aos="fade-up" data-aos-delay="50">
             <div class="portfolio-wrap">
-              <img src="assets/img/beyond/8.png" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/beyond/beyond1.png" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/beyond/8.png" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/portfolio/beyond/beyond1.png" data-gall="portfolioGallery" class="venobox" title="Beyond Meat 1"><i class="bx bx-plus"></i></a>
                 <a href="https://www.instagram.com/p/CXW58VkPCYq/?utm_source=ig_web_copy_link" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
@@ -268,9 +277,9 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-graphics cover" data-aos="fade-up" data-aos-delay="50">
             <div class="portfolio-wrap">
-              <img src="assets/img/b2.jpeg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/beyond/beyond2.jpeg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/b2.jpeg" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/portfolio/beyond/beyond2.jpeg" data-gall="portfolioGallery" class="venobox" title="Beyond Meat 2"><i class="bx bx-plus"></i></a>
                 <a href="https://www.instagram.com/p/CXW58VkPCYq/?utm_source=ig_web_copy_link" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
@@ -278,9 +287,9 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-graphics cover" data-aos="fade-up" data-aos-delay="50">
             <div class="portfolio-wrap">
-              <img src="assets/img/r-bottles.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/r-bottles.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/r-bottles.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/portfolio/r-bottles.jpg" data-gall="portfolioGallery" class="venobox" title="Water Bottles"><i class="bx bx-plus"></i></a>
                 <a href="https://www.instagram.com/p/CVgzgo6s_0U/?utm_source=ig_web_copy_link" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
@@ -288,9 +297,9 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-graphics cover" data-aos="fade-up" data-aos-delay="50">
             <div class="portfolio-wrap">
-              <img src="assets/img/tuesday/8.png" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/tuesday/8.png" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/tuesday/8.png" data-gall="portfolioGallery" class="venobox" title="Card 2"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/portfolio/tuesday/8.png" data-gall="portfolioGallery" class="venobox" title="Takeaway Tuesday"><i class="bx bx-plus"></i></a>
                 <a href="https://www.instagram.com/p/CXJKZLDlgYp/?utm_source=ig_web_button_share_sheet" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
@@ -298,9 +307,9 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-graphics cover" data-aos="fade-up" data-aos-delay="50">
             <div class="portfolio-wrap">
-              <img src="assets/img/tuesday/7.png" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/tuesday/7.png" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/tuesday/7.png" data-gall="portfolioGallery" class="venobox" title="Web 2"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/portfolio/tuesday/7.png" data-gall="portfolioGallery" class="venobox" title="Takeaway Tuesday"><i class="bx bx-plus"></i></a>
                 <a href="https://www.instagram.com/p/CW3oEq0PUSm/?utm_source=ig_web_button_share_sheet" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
@@ -308,9 +317,9 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-graphics cover" data-aos="fade-up" data-aos-delay="50">
             <div class="portfolio-wrap">
-              <img src="assets/img/tuesday/1.png" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/tuesday/1.png" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/tuesday/1.png" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/portfolio/tuesday/1.png" data-gall="portfolioGallery" class="venobox" title="Takeaway Tuesday"><i class="bx bx-plus"></i></a>
                 <a href="https://www.instagram.com/p/CVeMqdOsLo1/?utm_source=ig_web_copy_link" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
@@ -318,9 +327,9 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-graphics cover" data-aos="fade-up" data-aos-delay="50">
             <div class="portfolio-wrap">
-              <img src="assets/img/reusables.png" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/reusables.png" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/reusables.png" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/portfolio/reusables.png" data-gall="portfolioGallery" class="venobox" title="Reusable Containers"><i class="bx bx-plus"></i></a>
                 <a href="https://www.instagram.com/p/CUh0kX7gxsL/?utm_source=ig_web_copy_link" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
@@ -328,9 +337,9 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-graphics cover" data-aos="fade-up" data-aos-delay="50">
             <div class="portfolio-wrap">
-              <img src="assets/img/ln.jpeg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/ln.jpeg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/ln.jpeg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/portfolio/ln.jpeg" data-gall="portfolioGallery" class="venobox" title="Late Night"><i class="bx bx-plus"></i></a>
                 <a href="https://www.instagram.com/p/CXH6cOpMvwI/?utm_source=ig_web_button_share_sheet" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
@@ -338,9 +347,9 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-graphics cover" data-aos="fade-up" data-aos-delay="50">
             <div class="portfolio-wrap">
-              <img src="assets/img/b1.jpeg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/beyond/beyond3.jpeg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/b1.jpeg" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/portfolio/beyond/beyond3.jpeg" data-gall="portfolioGallery" class="venobox" title="Beyond Meat"><i class="bx bx-plus"></i></a>
                 <a href="https://www.instagram.com/p/CXW58VkPCYq/?utm_source=ig_web_copy_link" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
@@ -348,9 +357,9 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-graphics cover" data-aos="fade-up" data-aos-delay="40">
             <div class="portfolio-wrap">
-              <img src="assets/img/ac-jazz.png" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/ac-jazz.png" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/ac-jazz.png" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/portfolio/ac-jazz.png" data-gall="portfolioGallery" class="venobox" title="AC Jazz"><i class="bx bx-plus"></i></a>
                 <a href="" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
@@ -358,9 +367,9 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-graphics cover" data-aos="fade-up" data-aos-delay="40">
             <div class="portfolio-wrap">
-              <img src="assets/img/follow-ig.png" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/follow-ig.png" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/follow-ig.png" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/portfolio/follow-ig.png" data-gall="portfolioGallery" class="venobox" title="Instagram"><i class="bx bx-plus"></i></a>
                 <a href="" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
@@ -368,9 +377,9 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-graphics cover" data-aos="fade-up" data-aos-delay="40">
             <div class="portfolio-wrap">
-              <img src="assets/img/schwemms.jpeg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/schwemms.jpeg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/schwemms.jpeg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/portfolio/schwemms.jpeg" data-gall="portfolioGallery" class="venobox" title="Schwemms"><i class="bx bx-plus"></i></a>
                 <a href="https://www.instagram.com/p/CWI_WYvFTPr/?utm_source=ig_web_button_share_sheet" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
@@ -378,9 +387,9 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-paintings cover" data-aos="fade-up" data-aos-delay="40">
             <div class="portfolio-wrap">
-              <img src="assets/img/cpa2018.jpeg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/CPA-2018.jpeg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/cpa2018.jpeg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/portfolio/CPA-2018.jpeg" data-gall="portfolioGallery" class="venobox" title="CPA 2018"><i class="bx bx-plus"></i></a>
                 <a href="http://www.chineseperformingarts.net/contents/competition/painting/2018/" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
@@ -388,9 +397,9 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-paintings cover" data-aos="fade-up" data-aos-delay="40">
             <div class="portfolio-wrap">
-              <img src="assets/img/CPA-2019.jpeg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/CPA-2019.jpeg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/CPA-2019.jpeg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/portfolio/CPA-2019.jpeg" data-gall="portfolioGallery" class="venobox" title="CPA 2019"><i class="bx bx-plus"></i></a>
                 <a href="http://www.chineseperformingarts.net/contents/competition/painting/2019/" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
@@ -401,7 +410,6 @@
 
       </div>
     </section><!-- End Portfolio Section -->
-
 
 
     <!-- ======= About Section ======= -->
