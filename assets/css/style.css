@@ -930,7 +930,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   padding: 15px;
-  color: rgb(19, 70, 189);
+  color: rgb(253, 254, 255);
   font-size: 14px;
   position: fixed;
   left: 0;
@@ -951,13 +951,13 @@ section {
   color: #eaebf0;
 }
 
-@media (max-width: 1199px) {
+/* @media (max-width: 1199px) {
   #footer {
     position: static;
     width: auto;
     padding-right: 20px 15px;
   }
-}
+} */
 
 
 /*--------------------------------------------------------------
